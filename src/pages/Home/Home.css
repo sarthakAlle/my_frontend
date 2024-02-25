@@ -1,0 +1,21 @@
+.custom-grid {
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    max-width: 1200px;
+    flex: 1;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media screen and (max-width:1400px) {
+    .custom-grid {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .custom-grid {
+        height: 4000px;
+    }
+}

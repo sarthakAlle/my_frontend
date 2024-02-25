@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  position: relative;
+  position: relative;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +42,4 @@
     transform: rotate(360deg);
   }
 }
+
